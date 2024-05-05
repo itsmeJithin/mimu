@@ -14,7 +14,7 @@ npm install mimu
 The tokenizeCode function breaks down the input code into individual tokens. Here's how you can use it:
 
 ```javascript
-import { tokenizeCode } from 'typescript-minification-library';
+import { tokenizeCode } from 'mimu';
 
 const code = 'function add(a, b) { return a + b; }';
 const tokens = tokenizeCode(code);
@@ -24,7 +24,7 @@ console.log('Tokens:', tokens);
 ### Minify Code
 The minifyCode function removes unnecessary whitespace and comments from the input code. Here's how you can use it:
 ```javascript
-import { minifyCode } from 'typescript-minification-library';
+import { minifyCode } from 'mimu';
 
 const code = `
     // This is a sample function
