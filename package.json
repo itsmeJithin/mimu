@@ -2,7 +2,11 @@
   "name": "mimu",
   "version": "1.0.0",
   "description": "The TypeScript Minification Library is a lightweight tool for reducing the size of JavaScript or TypeScript source code by removing unnecessary characters such as whitespace and comments. Designed for developers seeking to optimize the performance and size of their web applications, this library offers a simple and efficient solution for minifying code without sacrificing readability or functionality.",
-  "main": "index.js",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "/dsit"
+  ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
